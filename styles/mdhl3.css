@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a{
+    margin-right: 2rem;
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 4rem;
+    padding: 1rem;
+}
+
+#activo{
+    background-color: yellowgreen;
+}
+
+.imagen{
+    background-image: url(../assets/design1_image2.jpg);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen h2{
+    font-size: 2rem;
+    background-color: yellow;
+    padding: 1.5rem;
+    border-radius: 6rem;
+    cursor: pointer;
+    position: absolute;
+}
+
+.imagen h2:hover{
+    background-color: rgb(154, 205, 50);
+    color: white;
+    box-shadow: 5px 10px 23px -1px rgba(154, 205, 50, 0.75);
+    transition: .5s;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    border-radius: 5rem;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
+}
+
+.secciones section{
+    margin: 0  5rem;
+    padding: 2rem;
+    background-color: wheat;
+    border-radius: 4rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+section h3{
+    margin: 0 0 .5rem;
+}
+
+section p{
+    margin-left: 1rem;
+}

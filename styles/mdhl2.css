@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+img{
+    height: 10rem;
+}
+
+header{
+    height: 7vh;
+    display: flex;
+    /* align-items: center; */
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header nav{
+    position: relative;
+    margin-left: auto;
+    margin-top: 3.5rem;
+    margin-right: 5rem;
+    z-index: 10;
+}
+
+nav a{
+    margin: 1.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgb(43, 25, 199);
+    color: white;
+    box-shadow: 2px 1px 0px 5px rgba(0,0,0,1);
+    padding: .7rem;
+}
+
+#activo{
+    background-color: yellowgreen;
+}
+
+.imagen{
+    height: 30vh;
+    background-image: url(../assets/design1_image2.jpg);
+    position: relative;
+}
+
+.imagen h2{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+main{
+    flex-grow: 1;
+    font-size: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.container img{
+    position: absolute;
+    left: 0;
+    top: 3rem;
+}
+
+.container .secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+    /* align-items: center; */
+}
+
+.secciones section{
+    margin: 2rem 0;
+    /* font-size: 1.5rem; */
+
+}
+
+section p{
+    margin: 0 1.5rem;
+    width: 60vw;
+}
