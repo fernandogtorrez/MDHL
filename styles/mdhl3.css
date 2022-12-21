@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+*:not(ul):not(ol):not(li):not(a){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    max-width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 251, 11);
+}
+/* ENCABEZADO*/
+header{
+    background-image: url(/wave.svg), url(/assets/design1_image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px, cover;
+    background-position: bottom;
+    height: 80vh;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    margin-right: 2rem;
+    text-decoration: none;
+    background-color: rgb(231, 210, 15);
+    color: rgb(0, 0, 0);
+    border-radius: 4rem;
+    padding: 1rem;
+}
+
+a:hover{
+    background-color: yellowgreen;
+    transition: .8s;
+}
+
+#activo{
+    background-color: yellowgreen;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero h2{
+    text-align: center;
+    margin-top: 8rem;
+    padding: 2rem;
+    background-color: rgb(231, 210, 15);
+    border-radius: 10rem;
+}
+
+.hero h2:hover{
+    background-color: yellowgreen;
+    box-shadow: 10px 10px 22px -7px rgba(153, 205, 50, 0.664);
+    transition: .8s;
+    cursor: pointer;
+}
+
+/*MAIN*/
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.imagen2{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.secciones section{
+    margin: 0  5rem;
+    padding: 2rem;
+    background-color: rgba(215, 238, 84, 0.521);
+    border-radius: 4rem;
+    box-shadow: 5px 5px 5px rgba(35, 36, 35, 0.664);
+    width: 20vw;
+    
+}
+
+.metas{
+    background-image: linear-gradient(to right, #799f0c, #acbb78);
+    background-size: 100% 125px;
+    background-repeat: no-repeat;
+}
+
+section h3{
+    margin: 0 0 .5rem;
+}
+
+section p{
+    margin-left: 1rem;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+.photo img{
+    border-radius: 50%;
+    background-position: center;
+    border: .3rem solid white;
+}
+
+.young{
+    list-style-type: lower-latin;
+}
+
+.young2{
+    list-style-type: circle;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.titulo p{
+    margin-top: 1rem;
+}
+
+.titulo h3{
+    margin-top: 1rem;
+}
+
+.reglas h3{
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.parrafo3{
+    margin-top: 1.5rem;
+}
+
+.parrafo_hijo{
+    display: inline-block;
+    border-bottom: .2rem solid black;
+    margin: 1.5rem 0;
+
+}
+span{
+    font-weight: 700;
+}
+
+.tablas{
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+thead{
+    border-bottom: .3rem solid rgb(189, 186, 3);
+}
+
+thead th,td{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+th{
+    color: rgb(52, 126, 3);
+}
+
+tr:nth-child(even){
+    background-color: rgb(241, 238, 238);
+}
+
+.dia{
+    background-color: rgb(250, 246, 16);
+    border-bottom: .2rem solid rgb(241, 238, 238);
+    font-size: 1.4rem;
+}
+
+.info{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.info p{
+    margin-top: 1.5rem;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+
